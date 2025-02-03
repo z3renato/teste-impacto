@@ -88,7 +88,7 @@ class Database {
   select(table, where = {}, columns = ['*']) {
     return new Promise((resolve, reject) => {
       const whereKeys = Object.keys(where);
-      const whereClause = whereKeys.length ? "WHERE " + whereKeys.map(key => `${key} = ?`).join(" AND ") : "WHERE deleted_at is null" ;
+      const whereClause = whereKeys.length ? "WHERE " + whereKeys.map(key => `${key} = ?`).join(" AND ") + " AND deleted_at is null" : "WHERE deleted_at is null" ;
       const sql = `SELECT ${columns.join(", ")} FROM ${table} ${whereClause}`;
       const params = whereKeys.length ? Object.values(where) : [];
 
