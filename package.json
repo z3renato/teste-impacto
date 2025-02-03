@@ -1,0 +1,34 @@
+{
+  "name": "impacto",
+  "version": "1.0.0",
+  "description": "api para teste técnico",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "migrations": "npx knex migrate:latest",
+    "start:dev": "npx nodemon src/index.js",
+    "start": "npm run migrations && node src/index.js",
+    "server": "cd ./public && npx http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/z3renato/teste-impacto.git"
+  },
+  "author": "Jose",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/z3renato/teste-impacto/issues"
+  },
+  "homepage": "https://github.com/z3renato/teste-impacto#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "knex": "^3.1.0",
+    "nodemon": "^3.1.9"
+  }
+}
