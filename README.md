@@ -32,7 +32,7 @@ Este repositório contém um projeto que inclui uma API e uma interface web.
 
 ### Executando a interface
  
- Execute usando o ```sh npm run server``` ou siga os passos abaixo:
+ Execute usando o ```npm run server``` ou siga os passos abaixo:
 
 
 1. Navegue até a pasta `public` em outra guia do terminal:
