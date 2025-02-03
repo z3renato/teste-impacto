@@ -130,4 +130,4 @@ dist
 .pnp.*
 
 .vscode/
-db/database.sqlite
+src/db/database.sqlite
