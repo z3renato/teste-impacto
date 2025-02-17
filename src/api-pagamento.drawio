@@ -1,9 +1,131 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.14">
   <diagram name="Page-1" id="8A9vxAhT35mFF_EgVfA0">
-    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1687" dy="918" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="M50GNinpc0-9XSBfkmc_-64" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry y="400" width="560" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="M50GNinpc0-9XSBfkmc_-52" value="Direto no OpenFinance" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="5" y="20" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M50GNinpc0-9XSBfkmc_-54" value="&lt;ul&gt;&lt;li&gt;Sem custos do terceiro&lt;/li&gt;&lt;li&gt;Burocracia&lt;/li&gt;&lt;li&gt;Necessita certificação&lt;/li&gt;&lt;li&gt;Leva mais tempo&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="80" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M50GNinpc0-9XSBfkmc_-59" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="M50GNinpc0-9XSBfkmc_-52">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="140" as="sourcePoint" />
+            <mxPoint x="210" y="90" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="80" y="80" />
+              <mxPoint x="100" y="90" />
+              <mxPoint x="120" y="90" />
+              <mxPoint x="190" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M50GNinpc0-9XSBfkmc_-60" value="API de Terceiros ( Recomendada)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="160" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M50GNinpc0-9XSBfkmc_-61" value="&lt;ul&gt;&lt;li&gt;Pesquisa de custos&lt;/li&gt;&lt;li&gt;Mais rápido para estar em PROD&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="220" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M50GNinpc0-9XSBfkmc_-62" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="M50GNinpc0-9XSBfkmc_-60">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="280" as="sourcePoint" />
+            <mxPoint x="210" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="105" y="210" />
+              <mxPoint x="105" y="220" />
+              <mxPoint x="120" y="230" />
+              <mxPoint x="190" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M50GNinpc0-9XSBfkmc_-63" value="&lt;font face=&quot;Garamond&quot; style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 102)); font-size: 17px;&quot;&gt;!&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Garamond&quot; style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 102)); font-size: 17px;&quot;&gt;Limite de requisições&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Garamond&quot; style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 102)); font-size: 17px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Garamond&quot; style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 102)); font-size: 17px;&quot;&gt;Verificar se é por domínio ou por cliente/assinatura&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="30" width="170" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="M50GNinpc0-9XSBfkmc_-66" value="&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Manter as informações na API&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="5" y="360" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M50GNinpc0-9XSBfkmc_-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="M50GNinpc0-9XSBfkmc_-67" target="M50GNinpc0-9XSBfkmc_-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M50GNinpc0-9XSBfkmc_-67" value="API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M50GNinpc0-9XSBfkmc_-78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="M50GNinpc0-9XSBfkmc_-68" target="M50GNinpc0-9XSBfkmc_-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M50GNinpc0-9XSBfkmc_-68" value="Requisição de pagamento&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="10" y="440" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="M50GNinpc0-9XSBfkmc_-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="M50GNinpc0-9XSBfkmc_-71" target="M50GNinpc0-9XSBfkmc_-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M50GNinpc0-9XSBfkmc_-71" value="Infos Fiscais&lt;div&gt;Tokens&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="245" y="520" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="M50GNinpc0-9XSBfkmc_-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="M50GNinpc0-9XSBfkmc_-72" target="M50GNinpc0-9XSBfkmc_-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M50GNinpc0-9XSBfkmc_-72" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="270" y="600" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="M50GNinpc0-9XSBfkmc_-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="M50GNinpc0-9XSBfkmc_-75" target="M50GNinpc0-9XSBfkmc_-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M50GNinpc0-9XSBfkmc_-75" value="Bank API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M50GNinpc0-9XSBfkmc_-79" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry y="740" width="560" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="M50GNinpc0-9XSBfkmc_-80" value="&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Receber as infos pela API&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry y="700" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M50GNinpc0-9XSBfkmc_-81" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="M50GNinpc0-9XSBfkmc_-82" target="M50GNinpc0-9XSBfkmc_-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M50GNinpc0-9XSBfkmc_-82" value="API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M50GNinpc0-9XSBfkmc_-83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="M50GNinpc0-9XSBfkmc_-84" target="M50GNinpc0-9XSBfkmc_-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M50GNinpc0-9XSBfkmc_-84" value="Requisição de pagamento&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="10" y="780" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="M50GNinpc0-9XSBfkmc_-85" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="M50GNinpc0-9XSBfkmc_-82">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="165" y="800" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M50GNinpc0-9XSBfkmc_-86" value="Infos Fiscais&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="10" y="800" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="M50GNinpc0-9XSBfkmc_-89" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="M50GNinpc0-9XSBfkmc_-90" target="M50GNinpc0-9XSBfkmc_-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M50GNinpc0-9XSBfkmc_-90" value="Bank API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M50GNinpc0-9XSBfkmc_-91" value="Tokens&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="10" y="820" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="M50GNinpc0-9XSBfkmc_-94" value="API" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="170" y="1580" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M50GNinpc0-9XSBfkmc_-95" value="RABBITMQ" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M50GNinpc0-9XSBfkmc_-96" value="BANK API&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M50GNinpc0-9XSBfkmc_-97" value="API" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="1180" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
